@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="primary">#141933</color>
+    <color name="sceoundry">#458EBC</color>
+    <color name="color3">#11C59C</color>
+    <color name="color4">#131a35</color>
+    <color name="blue">#0095ff</color>
+    <color name="transPerent">#00FFFFFF</color>
+    <color name="textcolor">#999999</color>
+    <color name="textcolor2">#071833</color>
+    <color name="liteGreen">#f6fcf2</color>
+    <color name="liteRed">#fb4c4c</color>
+    <color name="liteRedBg">#FDF9F9</color>
+    <color name="liteBlue">#06CBED</color>
+    <color name="shmirBagroung">#989898</color>
+    <color name="color1">#64a5ff</color>
+    <color name="gesture_nav_color">#00C5C1C1</color>
+    <color name="GreyText">#999999</color>
+    <color name="DeepGrey">#636262</color>
+    <color name="LiteBlack">#D5252525</color>
+    <color name="t2">#B9B8B8</color>
+    <color name="LiteBlack2">#595656</color>
+    <color name="green">#4BC851</color>
+
+
+    <color name="tangerine">#fc944c</color>
+    <color name="darkTangerine">#FF5E00</color>
+    <color name="liteTangerine">#ffb347</color>
+    <color name="recviewBagColor">#23595656</color>
+</resources>
