@@ -28,8 +28,8 @@
             />
 
         <ImageView
-            android:id="@+id/winner"
-            android:layout_width="200dp"
+            android:id="@+id/winnerIv"
+            android:layout_width="170dp"
             android:layout_marginTop="30dp"
             android:layout_height="wrap_content"
             android:layout_marginRight="25dp"
@@ -39,7 +39,7 @@
             />
 
         <TextView
-            android:id="@+id/congratulation"
+            android:id="@+id/greetingsTV"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Congratulation"
@@ -60,7 +60,7 @@
             android:text="You Have Succesfuly Complite the Quiz"
             android:textColor="@color/white"
             android:textSize="16sp"
-            android:id="@+id/textViewgereting"
+            android:id="@+id/greetingsTitleTV"
             />
 
         <TextView
@@ -134,15 +134,16 @@
                     android:textColor="@color/white"
                     android:text="CORRECT"
                     />
+
                 <TextView
                     android:id="@+id/correctTv"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textSize="20sp"
-                    android:textStyle="bold"
-                    android:text="0"
                     android:layout_marginTop="10dp"
-                    android:textColor="@android:color/holo_green_light"/>
+                    android:text="0"
+                    android:textColor="@android:color/holo_green_light"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
 
             </LinearLayout>
             <LinearLayout

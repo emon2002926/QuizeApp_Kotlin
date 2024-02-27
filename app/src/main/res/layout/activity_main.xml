@@ -30,7 +30,8 @@
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_alignParentBottom="true">
+                android:layout_centerVertical="true"
+                android:layout_alignParentBottom="false">
 
                 <TextView
                     android:id="@+id/currentQuestionPositionTv"
@@ -46,7 +47,7 @@
                     android:layout_height="wrap_content"
                     android:textStyle="bold"
                     android:textSize="28sp"
-                    android:text="/10"
+                    android:text="/5"
                     android:textColor="@color/color3"/>
 
 
@@ -58,13 +59,13 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="00:00:00"
-                android:layout_alignParentBottom="true"
+                android:text="01:10:44"
+                android:layout_centerVertical="true"
                 android:layout_alignParentEnd="true"
-                android:textSize="16sp"
-                android:layout_marginBottom="2dp"
+                android:textSize="18sp"
+                android:textStyle="bold"
                 android:id="@+id/quizTimerTV"
-                android:textColor="@color/liteBlue"
+                android:textColor="@color/blue"
                 android:layout_marginStart="5dp"
                 />
 
@@ -79,8 +80,6 @@
             android:background="@color/black"
             android:layout_marginStart="10dp"
             android:layout_marginEnd="10dp"
-
-
             />
         <LinearLayout
             android:layout_width="match_parent"
@@ -101,19 +100,9 @@
                 android:layout_marginEnd="20dp"
                 android:text=""
                 android:visibility="visible"
-                android:textAlignment="center"
+                android:textAlignment="viewStart"
                 android:id="@+id/questionTv"
                 />
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginEnd="10dp"
-                android:layout_marginStart="10dp"
-                android:visibility="gone"
-                android:scaleType="fitXY"
-                android:id="@+id/questionIv"
-                />
-
 
             <!--        option 1 layOut-->
             <RelativeLayout
@@ -122,7 +111,7 @@
                 android:id="@+id/option1Layout"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="55dp"
+                android:layout_marginTop="45dp"
                 android:background="@drawable/round_back_white50_10"
 
                 >
@@ -133,7 +122,6 @@
                     android:layout_height="wrap_content"
                     android:padding="15dp"
                     android:text="Option 1"
-
                     android:textColor="@color/white"
                     android:gravity="center_vertical"
                     android:textSize="17sp"
@@ -243,8 +231,6 @@
                     android:id="@+id/option4Icon"
                     />
             </RelativeLayout>
-
-
 
         </LinearLayout>
 

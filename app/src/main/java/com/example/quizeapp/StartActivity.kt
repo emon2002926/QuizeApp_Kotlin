@@ -3,6 +3,7 @@ package com.example.quizeapp
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import com.example.quizeapp.databinding.ActivityStartBinding
 
 class StartActivity : AppCompatActivity() {
@@ -11,6 +12,8 @@ class StartActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityStartBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+
         binding.startQuizButton.setOnClickListener {
             startActivity(Intent(this@StartActivity,MainActivity::class.java))
         }
